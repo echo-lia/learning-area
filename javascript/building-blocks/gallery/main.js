@@ -12,7 +12,7 @@ for(let i = 1; i <= 5; i++) {
   thumbBar.appendChild(newImage);
   newImage.onclick = function(e) {
     displayedImage.src = e.target.src;
-  }
+  };
 }
 
 /* Wiring up the Darken/Lighten button */
@@ -28,4 +28,4 @@ btn.onclick = function() {
     btn.textContent = '变暗';
     overlay.style.backgroundColor = 'rgba(0,0,0,0)';
   }
-}
+};
