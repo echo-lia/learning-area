@@ -28,7 +28,7 @@ textarea.addEventListener('keyup', e => {
 });
 
   
-btnClearConsole.addEventListener('click', e => {
+btnClearConsole.addEventListener('click', () => {
   let child = consoleLog.firstChild;
   while (child) {
     consoleLog.removeChild(child);
